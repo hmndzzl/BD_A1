@@ -1,0 +1,15 @@
+20210046|Jiménez Gómez, Sofía|Economía|60.3
+20210047|Rivera Castillo, Gabriela|Medicina|69.4
+20210048|Pérez González, Daniela|Economía|61.4
+20210049|Sánchez Hernández, Miguel|Derecho|89.7
+20210050|Martínez Pérez, Valentina|Ingeniería Industrial|66.3
+20210051|Vargas Vargas, Pedro|Derecho|66.0
+20210052|Romero Pérez, María|Administración|88.0
+20210053|Romero Sánchez, Camila|Administración|65.8
+20210054|Morales Gómez, Camila|Derecho|64.7
+20210055|Castillo González, Lucía|Comunicación|77.8
+20210056|Flores Torres, María|Arquitectura|87.4
+20210057|Hernández Vargas, Fernando|Comunicación|99.7
+20210058|Ortiz García, Isabella|Medicina|67.1
+20210059|Martínez Jiménez, Manuel|Administración|76.2
+20210060|García Morales, María|Medicina|90.3
