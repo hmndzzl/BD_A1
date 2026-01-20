@@ -1,15 +1,15 @@
-20210016|Romero Castillo, Camila|Ingeniería en Sistemas|65.8
-20210017|Sánchez Sánchez, Andrés|Medicina|94.0
-20210018|Hernández Martínez, Ana|Comunicación|88.3
-20210019|Torres García, Laura|Medicina|75.5
-20210020|Gómez López, Andrés|Arquitectura|69.5
-20210021|Martínez González, Manuel|Ingeniería Industrial|61.2
-20210022|Jiménez Torres, Laura|Ingeniería Industrial|84.7
-20210023|Jiménez García, Jorge|Derecho|82.0
-20210024|Sánchez Torres, Camila|Psicología|95.7
-20210025|Romero Martínez, Ricardo|Ingeniería Civil|87.3
-20210026|Jiménez Torres, Isabella|Arquitectura|85.3
-20210027|Sánchez Díaz, María|Psicología|79.7
-20210028|Ortiz Martínez, Daniela|Administración|64.8
-20210029|Ramírez Ortiz, Miguel|Medicina|89.0
-20210030|Flores Díaz, Ricardo|Administración|71.6
+20210016|Torres Romero, Sofía|Economía|76.9
+20210017|Ramírez García, Miguel|Psicología|81.1
+20210018|López Vargas, Jorge|Ingeniería Industrial|65.1
+20210019|Rivera Romero, Diego|Psicología|84.3
+20210020|Castillo Pérez, Lucía|Derecho|74.6
+20210021|Castillo Díaz, Diego|Derecho|69.0
+20210022|Romero García, Gabriela|Economía|87.8
+20210023|Pérez González, Laura|Psicología|88.0
+20210024|López Sánchez, Isabella|Economía|74.1
+20210025|Hernández Vargas, Andrés|Medicina|60.1
+20210026|Ortiz López, Carlos|Administración|73.6
+20210027|Morales Gómez, Manuel|Ingeniería en Sistemas|86.2
+20210028|Díaz Torres, Laura|Ingeniería Industrial|94.8
+20210029|González Gómez, Ricardo|Ingeniería Civil|86.2
+20210030|Rivera Gómez, Ana|Administración|85.4

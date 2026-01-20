@@ -1,15 +1,15 @@
-20210046|Jiménez Gómez, Sofía|Economía|60.3
-20210047|Rivera Castillo, Gabriela|Medicina|69.4
-20210048|Pérez González, Daniela|Economía|61.4
-20210049|Sánchez Hernández, Miguel|Derecho|89.7
-20210050|Martínez Pérez, Valentina|Ingeniería Industrial|66.3
-20210051|Vargas Vargas, Pedro|Derecho|66.0
-20210052|Romero Pérez, María|Administración|88.0
-20210053|Romero Sánchez, Camila|Administración|65.8
-20210054|Morales Gómez, Camila|Derecho|64.7
-20210055|Castillo González, Lucía|Comunicación|77.8
-20210056|Flores Torres, María|Arquitectura|87.4
-20210057|Hernández Vargas, Fernando|Comunicación|99.7
-20210058|Ortiz García, Isabella|Medicina|67.1
-20210059|Martínez Jiménez, Manuel|Administración|76.2
-20210060|García Morales, María|Medicina|90.3
+20210046|Flores Flores, Daniela|Psicología|98.9
+20210047|Torres Hernández, Jorge|Derecho|72.7
+20210048|Romero Pérez, Pedro|Comunicación|75.3
+20210049|Jiménez Ortiz, Carlos|Psicología|64.0
+20210050|Morales Martínez, Isabella|Ingeniería Industrial|90.7
+20210051|Díaz Jiménez, Laura|Ingeniería en Sistemas|89.6
+20210052|Martínez Rodríguez, Jorge|Economía|99.9
+20210053|Pérez Vargas, Fernando|Ingeniería en Sistemas|66.1
+20210054|García López, Andrés|Economía|84.5
+20210055|Díaz González, Daniela|Ingeniería Industrial|61.4
+20210056|Romero Díaz, Laura|Comunicación|73.7
+20210057|Gómez Flores, Laura|Ingeniería en Sistemas|66.0
+20210058|Sánchez Ramírez, Fernando|Economía|93.8
+20210059|Rivera González, Pedro|Economía|80.3
+20210060|Morales Rivera, Lucía|Economía|61.5
