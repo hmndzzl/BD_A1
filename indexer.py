@@ -7,7 +7,7 @@ import random
 # ============================================
 
 
-def generar_archivos_prueba():
+"""def generar_archivos_prueba():
     os.makedirs(CARPETA_DATOS, exist_ok=True)
 
     carnet = 260001
@@ -27,7 +27,7 @@ def generar_archivos_prueba():
 
                 carnet += 1
 
-    print("✔ Archivos de prueba generados")
+    print("✔ Archivos de prueba generados")"""
 
 
 # ============================================
