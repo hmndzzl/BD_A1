@@ -3,7 +3,6 @@
 ## Objetivo
 
 Implementar y comparar dos métodos de búsqueda en archivos:
-
 - **Búsqueda secuencial**: recorrer todos los registros hasta encontrar el deseado
 - **Búsqueda indexada**: usar un índice para acceder directamente al registro
 
@@ -22,7 +21,6 @@ carné|nombre|carrera|promedio
 ```
 
 Ejemplo (`estudiantes_001.txt`):
-
 ```
 20210001|López García, Camila|Administración|69.8
 20210002|Rivera López, Ana|Medicina|83.6
@@ -36,7 +34,6 @@ carné|archivo|posición_en_bytes
 ```
 
 Ejemplo (`indice.txt`):
-
 ```
 20210001|estudiantes_001.txt|0
 20210002|estudiantes_001.txt|53
@@ -54,7 +51,6 @@ La posición en bytes indica exactamente dónde comienza cada registro dentro de
 Implementa una función que busque un estudiante por su carné recorriendo **todos los archivos**, línea por línea, hasta encontrarlo.
 
 Tu función debe:
-
 1. Abrir cada archivo de datos en orden
 2. Leer línea por línea hasta encontrar el carné
 3. Contar cuántos archivos abrió y cuántas líneas leyó
@@ -65,7 +61,6 @@ Tu función debe:
 Implementa una función que genere el archivo `indice.txt` a partir de los archivos de datos.
 
 Tu función debe:
-
 1. Recorrer todos los archivos de datos
 2. Para cada registro, guardar: `carné|nombre_archivo|posición_en_bytes`
 3. La posición se obtiene **antes** de leer cada línea
@@ -75,7 +70,6 @@ Tu función debe:
 Implementa una función que busque un estudiante usando el índice.
 
 Tu función debe:
-
 1. Buscar el carné en el índice para obtener archivo y posición
 2. Abrir únicamente ese archivo
 3. Saltar directamente a la posición indicada
@@ -86,11 +80,11 @@ Tu función debe:
 
 Ejecuta ambas búsquedas con diferentes carnés y diferentes tamaños de datos. Presenta una tabla comparativa con:
 
-| Métrica           | Secuencial | Indexada |
-| ----------------- | ---------- | -------- |
-| Archivos abiertos | ?          | ?        |
-| Líneas leídas     | ?          | ?        |
-| Tiempo (ms)       | ?          | ?        |
+| Métrica | Secuencial | Indexada |
+|---------|------------|----------|
+| Archivos abiertos | ? | ? |
+| Líneas leídas | ? | ? |
+| Tiempo (ms) | ? | ? |
 
 ---
 
