@@ -112,4 +112,4 @@ def generar_archivos(num_archivos, registros_por_archivo):
 # ============================================
 # MODIFICA ESTOS VALORES PARA TUS PRUEBAS
 # ============================================
-generar_archivos(num_archivos=4, registros_por_archivo=15)
+generar_archivos(num_archivos=4, registros_por_archivo=20)

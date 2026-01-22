@@ -1,15 +1,20 @@
-20210031|Castillo Martínez, José|Derecho|67.4
-20210032|Díaz Díaz, Gabriela|Comunicación|68.9
-20210033|Ramírez López, Camila|Ingeniería en Sistemas|95.9
-20210034|Vargas Martínez, Isabella|Ingeniería en Sistemas|84.3
-20210035|Castillo Morales, José|Derecho|79.8
-20210036|García Pérez, Isabella|Administración|82.6
-20210037|Martínez Torres, Daniela|Ingeniería Industrial|84.0
-20210038|Rodríguez Vargas, Pedro|Derecho|65.4
-20210039|Sánchez Rivera, Ana|Arquitectura|64.4
-20210040|Rivera Torres, Gabriela|Administración|90.7
-20210041|Jiménez Ortiz, José|Ingeniería Civil|72.4
-20210042|Pérez Hernández, Fernando|Derecho|74.3
-20210043|González Flores, Miguel|Ingeniería Civil|77.7
-20210044|Ortiz Morales, Daniela|Ingeniería Industrial|68.9
-20210045|Flores Ortiz, Lucía|Psicología|86.9
+20210041|Ortiz Ramírez, Valentina|Psicología|84.7
+20210042|Ortiz Torres, José|Ingeniería Civil|65.8
+20210043|Gómez Gómez, Gabriela|Economía|99.0
+20210044|Castillo Rivera, Manuel|Administración|97.2
+20210045|Martínez Flores, Camila|Comunicación|62.4
+20210046|Romero Ortiz, Valentina|Comunicación|95.7
+20210047|Romero Sánchez, Daniela|Arquitectura|89.5
+20210048|Flores Rodríguez, Ana|Ingeniería Civil|92.3
+20210049|Pérez Díaz, Sofía|Economía|95.4
+20210050|Ramírez Rivera, María|Ingeniería Industrial|64.4
+20210051|López Flores, Andrés|Ingeniería Civil|65.9
+20210052|González Pérez, Pedro|Ingeniería en Sistemas|98.6
+20210053|Díaz Martínez, Valentina|Derecho|70.0
+20210054|Pérez Díaz, María|Medicina|78.7
+20210055|García Hernández, Daniela|Administración|77.7
+20210056|Vargas Vargas, Camila|Ingeniería en Sistemas|65.0
+20210057|Díaz López, Lucía|Comunicación|62.0
+20210058|Romero Díaz, Andrés|Administración|94.4
+20210059|Rivera Ortiz, Isabella|Ingeniería Civil|91.3
+20210060|Jiménez Gómez, Isabella|Arquitectura|91.4

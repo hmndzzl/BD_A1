@@ -41,41 +41,36 @@ def generar_indice(carpeta, archivo_indice):
         for archivo in sorted(os.listdir(carpeta)):
             ruta = os.path.join(carpeta, archivo)
 
-            if not archivo.endswith(".txt"):
+            if not archivo.endswith(".txt") or archivo == archivo_indice:
                 continue
 
-            with open(ruta, "r", encoding="utf-8") as f:
+            with open(ruta, "rb") as f:
                 byte_offset = 0
-                buffer = ""
+                for line in f:
+                    #offset acutal
+                    current_line_offset = byte_offset
+                    # offset siguiente linea
+                    byte_offset += len(line)
+                    
+                    contenido = line.decode("utf-8").strip()
+                    if not contenido:
+                        continue
 
-                while True:
-                    chunk = f.read(1024)
-                    if not chunk:
-                        break
+                    # formato carné|nombre|carrera|promedio
+                    partes = contenido.split("|")
+                    if partes:
+                        numero_carnet = partes[0]
+                        idx.write(f"{numero_carnet}|{archivo}|{current_line_offset}\n") # Queremos carné|archivo|posición_en_bytes
 
-                    buffer += chunk
+    print("Índice generado correctamente")
 
-                    while "|" in buffer:
-                        registro, buffer = buffer.split("|", 1)
-
-                        if registro.strip() == "":
-                            continue
-
-                        numero_carnet = registro.split("-")[0]
-                        idx.write(f"{numero_carnet}|{archivo}|{byte_offset}\n")
-
-                        byte_offset += len(registro.encode("utf-8")) + 1
-
-                byte_offset += len(buffer.encode("utf-8"))
-
-    print("✔ Índice generado correctamente")
 
 
 # ============================================
 # BUSCAR ESTUDIANTE USANDO EL ÍNDICE
 # ============================================
 
-
+"""
 def buscar_estudiante(numero_carnet, archivo_indice, carpeta):
     with open(archivo_indice, "r", encoding="utf-8") as idx:
         for linea in idx:
@@ -98,28 +93,28 @@ def buscar_estudiante(numero_carnet, archivo_indice, carpeta):
                 return f"{registro}|{archivo}"
 
     return None
-
+"""
 
 # ============================================
 # PROGRAMA PRINCIPAL
 # ============================================
 
 CARPETA_DATOS = "datos"
-ARCHIVO_INDICE = "indice_estudiantes.txt"
-REGISTROS_POR_ARCHIVO = 1000
-TOTAL_ARCHIVOS = 5
-
+ARCHIVO_INDICE = "indice.txt"
+#REGISTROS_POR_ARCHIVO = 1000
+#TOTAL_ARCHIVOS = 5
+"""
 NOMBRES = ["Ana", "Luis", "María", "Juan", "Carlos", "Sofía", "Pedro", "Laura"]
 APELLIDOS = ["Pérez", "Gómez", "López", "Martínez", "Hernández", "Ramírez"]
 CARRERAS = ["Ingeniería", "Medicina", "Derecho", "Arquitectura", "Economía"]
-
+"""
 # generar_archivos_prueba()
 
-# generar_indice(CARPETA_DATOS, ARCHIVO_INDICE)
+generar_indice(CARPETA_DATOS, ARCHIVO_INDICE)
 
 # Prueba de búsqueda
 carnet_prueba = "260001"
-resultado = buscar_estudiante(carnet_prueba, ARCHIVO_INDICE, CARPETA_DATOS)
+#resultado = buscar_estudiante(carnet_prueba, ARCHIVO_INDICE, CARPETA_DATOS)
 
-print("Resultado de búsqueda:")
-print(resultado)
+#print("Resultado de búsqueda:")
+#print(resultado)

@@ -1,15 +1,20 @@
-20210016|Torres Romero, Sofía|Economía|76.9
-20210017|Ramírez García, Miguel|Psicología|81.1
-20210018|López Vargas, Jorge|Ingeniería Industrial|65.1
-20210019|Rivera Romero, Diego|Psicología|84.3
-20210020|Castillo Pérez, Lucía|Derecho|74.6
-20210021|Castillo Díaz, Diego|Derecho|69.0
-20210022|Romero García, Gabriela|Economía|87.8
-20210023|Pérez González, Laura|Psicología|88.0
-20210024|López Sánchez, Isabella|Economía|74.1
-20210025|Hernández Vargas, Andrés|Medicina|60.1
-20210026|Ortiz López, Carlos|Administración|73.6
-20210027|Morales Gómez, Manuel|Ingeniería en Sistemas|86.2
-20210028|Díaz Torres, Laura|Ingeniería Industrial|94.8
-20210029|González Gómez, Ricardo|Ingeniería Civil|86.2
-20210030|Rivera Gómez, Ana|Administración|85.4
+20210021|Torres Flores, Sofía|Ingeniería Civil|67.0
+20210022|Díaz Ramírez, Ana|Comunicación|91.9
+20210023|Ortiz Hernández, Lucía|Ingeniería Industrial|93.4
+20210024|Hernández Rivera, José|Psicología|96.8
+20210025|González Martínez, María|Ingeniería Civil|72.5
+20210026|Flores García, Carlos|Ingeniería Industrial|79.7
+20210027|Martínez Ramírez, Camila|Economía|81.6
+20210028|Vargas González, Isabella|Psicología|78.4
+20210029|Flores Sánchez, Manuel|Arquitectura|83.0
+20210030|Flores Vargas, Daniela|Psicología|81.4
+20210031|Martínez Gómez, Miguel|Arquitectura|99.8
+20210032|Hernández Jiménez, Diego|Ingeniería en Sistemas|85.4
+20210033|Hernández Díaz, Ana|Comunicación|99.9
+20210034|Torres Vargas, Ana|Arquitectura|97.1
+20210035|Pérez Hernández, Carlos|Ingeniería Industrial|99.0
+20210036|Pérez Castillo, Ricardo|Arquitectura|64.0
+20210037|Martínez Gómez, Isabella|Derecho|83.9
+20210038|Jiménez Pérez, Jorge|Arquitectura|71.5
+20210039|García Romero, Sofía|Medicina|63.1
+20210040|Romero Martínez, Carlos|Ingeniería en Sistemas|64.2

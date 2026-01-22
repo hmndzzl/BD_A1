@@ -4,9 +4,13 @@ import os
 import time
 import glob
 
+CARPETA_DATOS = "datos"
+ARCHIVO_INDICE = "indice.txt"
 
 # obtener la ruta del directorio actual para los archivos 
 ruta = os.path.dirname(os.path.abspath(__file__))
+
+#---------------------------------------------
 
 #funcion para realizar la busqueda secuencial
 def secuencial(carnet_estudiante, documentos):
@@ -54,17 +58,51 @@ def secuencial(carnet_estudiante, documentos):
     # se retornan los valores correspondientes
     return None, archivos_leidos, lineas_leidas, tiempo_ejecucion
 
+#---------------------------------------------
+
+# Función para la generación del index.txt
+def generar_indice(carpeta, archivo_indice):
+    with open(archivo_indice, "w", encoding="utf-8") as idx:
+
+        for archivo in sorted(os.listdir(carpeta)):
+            ruta = os.path.join(carpeta, archivo)
+
+            if not archivo.endswith(".txt") or archivo == archivo_indice:
+                continue
+
+            with open(ruta, "rb") as f:
+                byte_offset = 0
+                for line in f:
+                    #offset acutal
+                    current_line_offset = byte_offset
+                    # offset siguiente linea
+                    byte_offset += len(line)
+                    
+                    contenido = line.decode("utf-8").strip()
+                    if not contenido:
+                        continue
+
+                    # formato carné|nombre|carrera|promedio
+                    partes = contenido.split("|")
+                    if partes:
+                        numero_carnet = partes[0]
+                        idx.write(f"{numero_carnet}|{archivo}|{current_line_offset}\n") # Queremos carné|archivo|posición_en_bytes
+
+    print("Índice generado correctamente")
+
+
+#---------------------------------------------------------------------------------------------
 
 # se especifican los archivos a revisar de forma automática y el carnet a buscar
 archivos_a_revisar = sorted(glob.glob(os.path.join(ruta, "datos", "estudiantes_*.txt")))
 
-
-
 carnet_buscado = "20210042"
-
 
 # ejecucion de la busqueda secuencial
 resultado, archivos_recorridos, lineas_recorridas, tiempo_total = secuencial(carnet_buscado, archivos_a_revisar)
+
+# Generar el archivo con los índices
+generar_indice(CARPETA_DATOS, ARCHIVO_INDICE)
 
 # resultados de la busqueda
 if resultado:
