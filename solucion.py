@@ -5,7 +5,7 @@ import time
 import glob
 
 CARPETA_DATOS = "datos"
-ARCHIVO_INDICE = "indice.txt"
+ARCHIVO_INDICE = os.path.join(CARPETA_DATOS, "indice.txt")
 
 # obtener la ruta del directorio actual para los archivos 
 ruta = os.path.dirname(os.path.abspath(__file__))
@@ -67,7 +67,7 @@ def generar_indice(carpeta, archivo_indice):
         for archivo in sorted(os.listdir(carpeta)):
             ruta = os.path.join(carpeta, archivo)
 
-            if not archivo.endswith(".txt") or archivo == archivo_indice:
+            if not archivo.endswith(".txt") or archivo == os.path.basename(archivo_indice):
                 continue
 
             with open(ruta, "rb") as f:

@@ -41,7 +41,7 @@ def generar_indice(carpeta, archivo_indice):
         for archivo in sorted(os.listdir(carpeta)):
             ruta = os.path.join(carpeta, archivo)
 
-            if not archivo.endswith(".txt") or archivo == archivo_indice:
+            if not archivo.endswith(".txt") or archivo == os.path.basename(archivo_indice):
                 continue
 
             with open(ruta, "rb") as f:
@@ -100,7 +100,7 @@ def buscar_estudiante(numero_carnet, archivo_indice, carpeta):
 # ============================================
 
 CARPETA_DATOS = "datos"
-ARCHIVO_INDICE = "indice.txt"
+ARCHIVO_INDICE = os.path.join(CARPETA_DATOS, "indice.txt")
 #REGISTROS_POR_ARCHIVO = 1000
 #TOTAL_ARCHIVOS = 5
 """
