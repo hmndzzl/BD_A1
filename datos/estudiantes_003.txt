@@ -1,20 +1,15 @@
-20210041|Ortiz Ramírez, Valentina|Psicología|84.7
-20210042|Ortiz Torres, José|Ingeniería Civil|65.8
-20210043|Gómez Gómez, Gabriela|Economía|99.0
-20210044|Castillo Rivera, Manuel|Administración|97.2
-20210045|Martínez Flores, Camila|Comunicación|62.4
-20210046|Romero Ortiz, Valentina|Comunicación|95.7
-20210047|Romero Sánchez, Daniela|Arquitectura|89.5
-20210048|Flores Rodríguez, Ana|Ingeniería Civil|92.3
-20210049|Pérez Díaz, Sofía|Economía|95.4
-20210050|Ramírez Rivera, María|Ingeniería Industrial|64.4
-20210051|López Flores, Andrés|Ingeniería Civil|65.9
-20210052|González Pérez, Pedro|Ingeniería en Sistemas|98.6
-20210053|Díaz Martínez, Valentina|Derecho|70.0
-20210054|Pérez Díaz, María|Medicina|78.7
-20210055|García Hernández, Daniela|Administración|77.7
-20210056|Vargas Vargas, Camila|Ingeniería en Sistemas|65.0
-20210057|Díaz López, Lucía|Comunicación|62.0
-20210058|Romero Díaz, Andrés|Administración|94.4
-20210059|Rivera Ortiz, Isabella|Ingeniería Civil|91.3
-20210060|Jiménez Gómez, Isabella|Arquitectura|91.4
+20210031|Castillo Vargas, Camila|Arquitectura|94.9
+20210032|López Pérez, Andrés|Derecho|72.3
+20210033|López Flores, Carlos|Ingeniería en Sistemas|74.0
+20210034|Rodríguez Romero, Jorge|Ingeniería en Sistemas|93.3
+20210035|Torres Romero, Miguel|Comunicación|80.6
+20210036|Gómez Vargas, Gabriela|Psicología|73.6
+20210037|González Sánchez, Sofía|Administración|94.4
+20210038|García Rivera, Andrés|Comunicación|80.1
+20210039|Rodríguez Díaz, María|Psicología|80.2
+20210040|García Ramírez, Fernando|Economía|62.6
+20210041|Castillo Pérez, Fernando|Arquitectura|97.9
+20210042|López Díaz, Ana|Comunicación|61.2
+20210043|Martínez Flores, Lucía|Comunicación|67.0
+20210044|González Pérez, María|Comunicación|70.3
+20210045|Vargas Flores, Ana|Ingeniería en Sistemas|77.9

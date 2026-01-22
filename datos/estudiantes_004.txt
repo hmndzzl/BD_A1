@@ -1,20 +1,15 @@
-20210061|Torres Morales, Laura|Ingeniería en Sistemas|99.1
-20210062|Torres Torres, José|Comunicación|64.3
-20210063|Ramírez Ortiz, Diego|Comunicación|65.2
-20210064|Díaz Sánchez, María|Ingeniería Industrial|67.5
-20210065|Vargas Hernández, Jorge|Derecho|99.0
-20210066|Castillo Díaz, Jorge|Ingeniería Industrial|70.8
-20210067|Martínez Sánchez, Sofía|Psicología|80.2
-20210068|Rivera Martínez, Isabella|Psicología|85.9
-20210069|Romero García, Diego|Economía|89.0
-20210070|Torres Jiménez, Miguel|Comunicación|86.1
-20210071|Pérez Rivera, Ana|Arquitectura|99.6
-20210072|Torres Martínez, Carlos|Economía|95.7
-20210073|García Hernández, Camila|Administración|61.5
-20210074|Díaz Rodríguez, Gabriela|Administración|88.8
-20210075|Flores Flores, Laura|Derecho|84.7
-20210076|Gómez Ramírez, Jorge|Administración|64.0
-20210077|Díaz Ramírez, Ana|Psicología|80.9
-20210078|Romero Rivera, Pedro|Psicología|99.6
-20210079|Morales Rodríguez, Pedro|Medicina|65.7
-20210080|Flores Pérez, Gabriela|Medicina|68.5
+20210046|Jiménez Díaz, Daniela|Comunicación|68.3
+20210047|Torres Morales, Sofía|Derecho|90.3
+20210048|Ortiz Ortiz, Daniela|Economía|64.3
+20210049|Rodríguez Rivera, Camila|Ingeniería Industrial|82.0
+20210050|Flores Ramírez, Manuel|Ingeniería en Sistemas|88.8
+20210051|Castillo Castillo, Andrés|Ingeniería en Sistemas|73.2
+20210052|Pérez Morales, Miguel|Comunicación|71.3
+20210053|Flores Jiménez, Pedro|Economía|85.0
+20210054|Sánchez Martínez, Laura|Medicina|88.2
+20210055|López Díaz, Ana|Psicología|63.2
+20210056|Rivera Torres, Daniela|Ingeniería Civil|63.6
+20210057|Romero Díaz, Jorge|Economía|72.4
+20210058|Jiménez Morales, Fernando|Administración|69.3
+20210059|Jiménez Jiménez, Gabriela|Derecho|89.4
+20210060|Torres González, Manuel|Economía|63.8

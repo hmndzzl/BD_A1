@@ -1,20 +1,15 @@
-20210021|Torres Flores, Sofía|Ingeniería Civil|67.0
-20210022|Díaz Ramírez, Ana|Comunicación|91.9
-20210023|Ortiz Hernández, Lucía|Ingeniería Industrial|93.4
-20210024|Hernández Rivera, José|Psicología|96.8
-20210025|González Martínez, María|Ingeniería Civil|72.5
-20210026|Flores García, Carlos|Ingeniería Industrial|79.7
-20210027|Martínez Ramírez, Camila|Economía|81.6
-20210028|Vargas González, Isabella|Psicología|78.4
-20210029|Flores Sánchez, Manuel|Arquitectura|83.0
-20210030|Flores Vargas, Daniela|Psicología|81.4
-20210031|Martínez Gómez, Miguel|Arquitectura|99.8
-20210032|Hernández Jiménez, Diego|Ingeniería en Sistemas|85.4
-20210033|Hernández Díaz, Ana|Comunicación|99.9
-20210034|Torres Vargas, Ana|Arquitectura|97.1
-20210035|Pérez Hernández, Carlos|Ingeniería Industrial|99.0
-20210036|Pérez Castillo, Ricardo|Arquitectura|64.0
-20210037|Martínez Gómez, Isabella|Derecho|83.9
-20210038|Jiménez Pérez, Jorge|Arquitectura|71.5
-20210039|García Romero, Sofía|Medicina|63.1
-20210040|Romero Martínez, Carlos|Ingeniería en Sistemas|64.2
+20210016|Ramírez García, Sofía|Arquitectura|73.9
+20210017|Castillo Morales, Ana|Ingeniería Industrial|95.3
+20210018|Vargas Gómez, Miguel|Ingeniería Industrial|72.3
+20210019|García Torres, Lucía|Medicina|65.9
+20210020|López Martínez, María|Arquitectura|93.3
+20210021|Flores Gómez, Gabriela|Arquitectura|97.4
+20210022|Ortiz Torres, Fernando|Comunicación|89.4
+20210023|Hernández Díaz, Lucía|Ingeniería Industrial|92.1
+20210024|Castillo Torres, Ricardo|Ingeniería Civil|98.2
+20210025|Flores Rivera, Laura|Administración|60.7
+20210026|Martínez Martínez, Ricardo|Psicología|70.3
+20210027|Ramírez Pérez, María|Economía|73.2
+20210028|García Martínez, Fernando|Ingeniería en Sistemas|98.5
+20210029|López Romero, Camila|Arquitectura|64.1
+20210030|González López, Daniela|Psicología|71.8

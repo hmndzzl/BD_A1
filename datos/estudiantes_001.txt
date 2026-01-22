@@ -1,20 +1,15 @@
-20210001|Pérez Ramírez, José|Arquitectura|74.2
-20210002|González Flores, Miguel|Economía|72.0
-20210003|Flores García, Lucía|Ingeniería Industrial|94.8
-20210004|Martínez Torres, Carlos|Ingeniería en Sistemas|61.9
-20210005|Romero Jiménez, José|Administración|69.2
-20210006|Pérez Hernández, Ricardo|Ingeniería en Sistemas|84.0
-20210007|Martínez González, Camila|Derecho|78.9
-20210008|Ramírez Morales, Isabella|Arquitectura|63.5
-20210009|López Morales, Sofía|Medicina|87.2
-20210010|Rivera Romero, Diego|Medicina|84.4
-20210011|Castillo Jiménez, María|Ingeniería Civil|82.9
-20210012|Sánchez Sánchez, Manuel|Arquitectura|68.0
-20210013|Ramírez Flores, Laura|Ingeniería en Sistemas|79.4
-20210014|Castillo Torres, Gabriela|Arquitectura|91.9
-20210015|Morales Sánchez, Carlos|Ingeniería Civil|65.3
-20210016|García Jiménez, Gabriela|Ingeniería en Sistemas|67.5
-20210017|Rivera Gómez, Lucía|Economía|87.9
-20210018|Ramírez González, Daniela|Ingeniería Industrial|84.7
-20210019|Rodríguez Rodríguez, Laura|Ingeniería Industrial|68.5
-20210020|Hernández Pérez, Valentina|Ingeniería en Sistemas|95.6
+20210001|López Castillo, Lucía|Derecho|79.2
+20210002|Ramírez Pérez, Daniela|Economía|64.8
+20210003|Sánchez Castillo, Miguel|Ingeniería Industrial|66.3
+20210004|Morales Gómez, María|Ingeniería en Sistemas|63.1
+20210005|Pérez González, Carlos|Ingeniería en Sistemas|79.2
+20210006|Torres Flores, Carlos|Comunicación|66.0
+20210007|Torres Vargas, María|Ingeniería en Sistemas|68.0
+20210008|Sánchez Hernández, Carlos|Comunicación|66.4
+20210009|Romero Rodríguez, Valentina|Economía|62.9
+20210010|Sánchez Sánchez, Pedro|Comunicación|66.8
+20210011|López Sánchez, Camila|Comunicación|68.6
+20210012|Hernández Sánchez, María|Arquitectura|66.8
+20210013|Torres Gómez, Sofía|Ingeniería en Sistemas|68.1
+20210014|García García, Gabriela|Ingeniería Civil|74.3
+20210015|Pérez Jiménez, Sofía|Ingeniería Industrial|88.1

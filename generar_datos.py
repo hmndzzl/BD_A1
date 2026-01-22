@@ -6,6 +6,9 @@ Modifica los parámetros en la función main para generar diferentes cantidades
 import random
 import os
 
+CARPETA_DATOS = "datos"
+ARCHIVO_INDICE = os.path.join(CARPETA_DATOS, "indice.txt")
+
 NOMBRES = [
     "María",
     "Carlos",
@@ -108,8 +111,44 @@ def generar_archivos(num_archivos, registros_por_archivo):
     print(f"\nTotal: {registro_actual} registros")
     print(f"Carnés: {carne_base} - {carne_base + registro_actual - 1}")
 
+# Función para la generación del index.txt
+def generar_indice(carpeta, archivo_indice):
+    with open(archivo_indice, "w", encoding="utf-8") as idx:
+
+        for archivo in sorted(os.listdir(carpeta)):
+            ruta = os.path.join(carpeta, archivo)
+
+            if not archivo.endswith(".txt") or archivo == os.path.basename(archivo_indice):
+                continue
+
+            with open(ruta, "rb") as f:
+                byte_offset = 0
+                for line in f:
+                    #offset acutal
+                    current_line_offset = byte_offset
+                    # offset siguiente linea
+                    byte_offset += len(line)
+                    
+                    contenido = line.decode("utf-8").strip()
+                    if not contenido:
+                        continue
+
+                    # formato carné|nombre|carrera|promedio
+                    partes = contenido.split("|")
+                    if partes:
+                        numero_carnet = partes[0]
+                        idx.write(f"{numero_carnet}|{archivo}|{current_line_offset}\n") # Queremos carné|archivo|posición_en_bytes
+
+    print("Índice generado correctamente")
+
 
 # ============================================
 # MODIFICA ESTOS VALORES PARA TUS PRUEBAS
 # ============================================
-generar_archivos(num_archivos=4, registros_por_archivo=20)
+generar_archivos(num_archivos=4, registros_por_archivo=15)
+
+#Si generamos más archivos y luego queremos generar menos (ej. generamos 10 y ahora queremos probar con 4)
+# debemos eliminar los archivos que sobran manualmente
+
+# Generar el archivo con los índices
+generar_indice(CARPETA_DATOS, ARCHIVO_INDICE)
