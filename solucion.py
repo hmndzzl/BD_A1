@@ -2,6 +2,8 @@
 
 import os
 import time
+import glob
+
 
 # obtener la ruta del directorio actual para los archivos 
 ruta = os.path.dirname(os.path.abspath(__file__))
@@ -52,16 +54,21 @@ def secuencial(carnet_estudiante, documentos):
     # se retornan los valores correspondientes
     return None, archivos_leidos, lineas_leidas, tiempo_ejecucion
 
-# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# se especifican los archivos a revisar y el carnet a buscar
-archivos_a_revisar = [os.path.join(ruta, "datos", "estudiantes_001.txt"), os.path.join(ruta, "datos", "estudiantes_002.txt"), os.path.join(ruta, "datos", "estudiantes_003.txt"), os.path.join(ruta, "datos", "estudiantes_004.txt")]
+
+# se especifican los archivos a revisar de forma automática y el carnet a buscar
+archivos_a_revisar = sorted(glob.glob(os.path.join(ruta, "datos", "estudiantes_*.txt")))
+
+
+
 carnet_buscado = "20210042"
+
 
 # ejecucion de la busqueda secuencial
 resultado, archivos_recorridos, lineas_recorridas, tiempo_total = secuencial(carnet_buscado, archivos_a_revisar)
 
 # resultados de la busqueda
 if resultado:
+    print("ruta del archivo: " + resultado['documento'])    
     print("Estudiante correspondiente al carnet buscado:")
     print(resultado)
     print(f"Numero de archivos abiertos: {archivos_recorridos}")
