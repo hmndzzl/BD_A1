@@ -111,6 +111,8 @@ def generar_archivos(num_archivos, registros_por_archivo):
     print(f"\nTotal: {registro_actual} registros")
     print(f"Carnés: {carne_base} - {carne_base + registro_actual - 1}")
 
+
+
 # Función para la generación del index.txt
 def generar_indice(carpeta, archivo_indice):
     with open(archivo_indice, "w", encoding="utf-8") as idx:
