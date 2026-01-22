@@ -106,11 +106,13 @@ generar_indice(CARPETA_DATOS, ARCHIVO_INDICE)
 
 # resultados de la busqueda
 if resultado:
+    print("----------------- BÚSQUEDA SECUENCIAL -----------------")
     print("ruta del archivo: " + resultado['documento'])    
     print("Estudiante correspondiente al carnet buscado:")
     print(resultado)
     print(f"Numero de archivos abiertos: {archivos_recorridos}")
     print(f"Total de lineas leidas: {lineas_recorridas}")
     print(f"Tiempo total de la busqueda: {tiempo_total:.6f} s")
+    print("----------------- FIN BÚSQUEDA SECUENCIAL -----------------")
 else:
     print("Estudiante no encontrado")
