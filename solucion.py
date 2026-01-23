@@ -58,10 +58,75 @@ def secuencial(carnet_estudiante, documentos):
 
 #---------------------------------------------------------------------------------------------
 
+# funcion para realizar la busqueda usando indice
+def busqueda_indexada(carnet_estudiante, ruta_indice):
+    # variables
+    
+    tiempo_inicio = time.perf_counter()
+    estudiante_correspondiente = None
+    
+    try:
+        # Buscar el carné en el índice para obtener archivo y posición
+        with open(ruta_indice, 'r', encoding='utf-8') as indice:
+            for linea in indice:
+                linea = linea.strip()
+                
+                if not linea:
+                    continue
+                
+                # formato del índice: carnet|archivo|posicion
+                carnet, archivo, posicion = linea.split('|')
+                
+                if carnet == carnet_estudiante:
+                    # Abrir únicamente ese archivo
+                    ruta_archivo = os.path.join(os.path.dirname(ruta_indice), archivo)
+                    
+                    with open(ruta_archivo, 'r', encoding='utf-8') as archivo_abierto:
+                        # Saltar directamente a la posición indicada
+                        archivo_abierto.seek(int(posicion))
+                        
+                        # Leer solo esa línea
+                        linea_estudiante = archivo_abierto.readline().strip()
+                        
+                        if linea_estudiante:
+                            # parsear los datos del estudiante
+                            partes = linea_estudiante.split('|')
+                            if len(partes) == 4:
+                                carnet_leido, nombre, carrera, promedio = partes
+                                estudiante_correspondiente = {
+                                    "carnet": carnet_leido,
+                                    "nombre": nombre,
+                                    "carrera": carrera,
+                                    "promedio": float(promedio),
+                                    "documento": ruta_archivo
+                                }
+                    break
+        
+        # Medir el tiempo que tomó la búsqueda
+        tiempo_final = time.perf_counter()
+        tiempo_ejecucion = tiempo_final - tiempo_inicio
+        
+        return estudiante_correspondiente, tiempo_ejecucion
+        
+    except FileNotFoundError as e:
+        print(f"El archivo {e.filename} no se encontro")
+        tiempo_final = time.perf_counter()
+        tiempo_ejecucion = tiempo_final - tiempo_inicio
+        return None, tiempo_ejecucion
+    except Exception as e:
+        print(f"Error durante la búsqueda: {e}")
+        tiempo_final = time.perf_counter()
+        tiempo_ejecucion = tiempo_final - tiempo_inicio
+        return None, tiempo_ejecucion
+
+
+#---------------------------------------------------------------------------------------------
+
 # se especifican los archivos a revisar de forma automática y el carnet a buscar
 archivos_a_revisar = sorted(glob.glob(os.path.join(ruta, "datos", "estudiantes_*.txt")))
 
 carnet_buscado = "20210042"
+ruta_indice = os.path.join(ruta, "datos", "indice.txt")
 
 # ejecucion de la busqueda secuencial
 resultado, archivos_recorridos, lineas_recorridas, tiempo_total = secuencial(carnet_buscado, archivos_a_revisar)
@@ -76,5 +141,21 @@ if resultado:
     print(f"Total de lineas leidas: {lineas_recorridas}")
     print(f"Tiempo total de la busqueda: {tiempo_total:.6f} s")
     print("----------------- FIN BÚSQUEDA SECUENCIAL -----------------")
+else:
+    print("Estudiante no encontrado")
+
+print()
+
+# ejecucion de la busqueda indexada
+resultado_indexado, tiempo_indexado = busqueda_indexada(carnet_buscado, ruta_indice)
+
+# resultados de la busqueda indexada
+if resultado_indexado:
+    print("----------------- BÚSQUEDA INDEXADA -----------------")
+    print("ruta del archivo: " + resultado_indexado['documento'])    
+    print("Estudiante correspondiente al carnet buscado:")
+    print(resultado_indexado)
+    print(f"Tiempo total de la busqueda: {tiempo_indexado:.6f} s")
+    print("----------------- FIN BÚSQUEDA INDEXADA -----------------")
 else:
     print("Estudiante no encontrado")
