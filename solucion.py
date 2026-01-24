@@ -62,11 +62,13 @@ def secuencial(carnet_estudiante, documentos):
 def busqueda_indexada(carnet_estudiante, ruta_indice):
     # variables
     
+    archivos_leidos = 0
+    lineas_leidas = 0
     tiempo_inicio = time.perf_counter()
     estudiante_correspondiente = None
     
     try:
-        # Buscar el carné en el índice para obtener archivo y posición
+        # Buscar el carné en el índice para obtener el archivo donde está
         with open(ruta_indice, 'r', encoding='utf-8') as indice:
             for linea in indice:
                 linea = linea.strip()
@@ -75,49 +77,60 @@ def busqueda_indexada(carnet_estudiante, ruta_indice):
                     continue
                 
                 # formato del índice: carnet|archivo|posicion
-                carnet, archivo, posicion = linea.split('|')
+                partes = linea.split('|')
+                if len(partes) < 2:
+                    continue
+                    
+                carnet = partes[0]
+                archivo = partes[1]
                 
                 if carnet == carnet_estudiante:
-                    # Abrir únicamente ese archivo
+                    # Abrir únicamente ese archivo específico
                     ruta_archivo = os.path.join(os.path.dirname(ruta_indice), archivo)
                     
                     with open(ruta_archivo, 'r', encoding='utf-8') as archivo_abierto:
-                        # Saltar directamente a la posición indicada
-                        archivo_abierto.seek(int(posicion))
+                        archivos_leidos += 1
                         
-                        # Leer solo esa línea
-                        linea_estudiante = archivo_abierto.readline().strip()
-                        
-                        if linea_estudiante:
+                        # Buscar el carnet en el archivo
+                        for linea_archivo in archivo_abierto:
+                            lineas_leidas += 1
+                            linea_archivo = linea_archivo.strip()
+                            
+                            if not linea_archivo:
+                                continue
+                            
                             # parsear los datos del estudiante
-                            partes = linea_estudiante.split('|')
-                            if len(partes) == 4:
-                                carnet_leido, nombre, carrera, promedio = partes
-                                estudiante_correspondiente = {
-                                    "carnet": carnet_leido,
-                                    "nombre": nombre,
-                                    "carrera": carrera,
-                                    "promedio": float(promedio),
-                                    "documento": ruta_archivo
-                                }
+                            partes_estudiante = linea_archivo.split('|')
+                            if len(partes_estudiante) == 4:
+                                carnet_leido, nombre, carrera, promedio = partes_estudiante
+                                
+                                if carnet_leido == carnet_estudiante:
+                                    estudiante_correspondiente = {
+                                        "carnet": carnet_leido,
+                                        "nombre": nombre,
+                                        "carrera": carrera,
+                                        "promedio": float(promedio),
+                                        "documento": ruta_archivo
+                                    }
+                                    break
                     break
         
         # Medir el tiempo que tomó la búsqueda
         tiempo_final = time.perf_counter()
         tiempo_ejecucion = tiempo_final - tiempo_inicio
         
-        return estudiante_correspondiente, tiempo_ejecucion
+        return estudiante_correspondiente, archivos_leidos, lineas_leidas, tiempo_ejecucion
         
     except FileNotFoundError as e:
         print(f"El archivo {e.filename} no se encontro")
         tiempo_final = time.perf_counter()
         tiempo_ejecucion = tiempo_final - tiempo_inicio
-        return None, tiempo_ejecucion
+        return None, archivos_leidos, lineas_leidas, tiempo_ejecucion
     except Exception as e:
         print(f"Error durante la búsqueda: {e}")
         tiempo_final = time.perf_counter()
         tiempo_ejecucion = tiempo_final - tiempo_inicio
-        return None, tiempo_ejecucion
+        return None, archivos_leidos, lineas_leidas, tiempo_ejecucion
 
 
 #---------------------------------------------------------------------------------------------
@@ -147,7 +160,7 @@ else:
 print()
 
 # ejecucion de la busqueda indexada
-resultado_indexado, tiempo_indexado = busqueda_indexada(carnet_buscado, ruta_indice)
+resultado_indexado, archivos_indexados, lineas_indexadas, tiempo_indexado = busqueda_indexada(carnet_buscado, ruta_indice)
 
 # resultados de la busqueda indexada
 if resultado_indexado:
@@ -155,6 +168,8 @@ if resultado_indexado:
     print("ruta del archivo: " + resultado_indexado['documento'])    
     print("Estudiante correspondiente al carnet buscado:")
     print(resultado_indexado)
+    print(f"Numero de archivos abiertos: {archivos_indexados}")
+    print(f"Total de lineas leidas: {lineas_indexadas}")
     print(f"Tiempo total de la busqueda: {tiempo_indexado:.6f} s")
     print("----------------- FIN BÚSQUEDA INDEXADA -----------------")
 else:
