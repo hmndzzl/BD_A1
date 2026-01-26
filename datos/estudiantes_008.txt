@@ -1,0 +1,35 @@
+20210246|Díaz Rivera, Miguel|Derecho|82.0
+20210247|González Rivera, Jorge|Ingeniería Civil|75.5
+20210248|Jiménez Hernández, Miguel|Ingeniería Industrial|79.1
+20210249|Castillo Vargas, Daniela|Comunicación|60.9
+20210250|Martínez Pérez, Isabella|Ingeniería Industrial|86.6
+20210251|Jiménez Romero, Ricardo|Ingeniería Civil|94.6
+20210252|Rivera Pérez, José|Derecho|96.0
+20210253|Ramírez Morales, Camila|Ingeniería en Sistemas|86.5
+20210254|Martínez Romero, Jorge|Comunicación|80.1
+20210255|Torres Flores, María|Economía|77.6
+20210256|Torres Martínez, María|Economía|82.2
+20210257|Vargas Vargas, Laura|Administración|71.3
+20210258|Flores Gómez, María|Ingeniería en Sistemas|74.7
+20210259|Vargas Flores, Sofía|Ingeniería Civil|96.4
+20210260|Ortiz Sánchez, Gabriela|Administración|96.4
+20210261|Ortiz Torres, Daniela|Medicina|97.1
+20210262|Ortiz Rodríguez, Manuel|Ingeniería Civil|85.1
+20210263|López Sánchez, Laura|Comunicación|85.1
+20210264|Torres Ramírez, Sofía|Ingeniería Industrial|80.7
+20210265|Pérez García, Carlos|Ingeniería en Sistemas|70.5
+20210266|Gómez Jiménez, Andrés|Ingeniería Civil|97.2
+20210267|Torres Ramírez, Valentina|Arquitectura|99.6
+20210268|Rivera Martínez, Sofía|Psicología|84.1
+20210269|Ortiz Pérez, Gabriela|Psicología|67.2
+20210270|Castillo Gómez, Daniela|Derecho|98.1
+20210271|Morales Flores, Isabella|Ingeniería Industrial|82.2
+20210272|Gómez Torres, Jorge|Ingeniería en Sistemas|87.4
+20210273|Ortiz Romero, José|Ingeniería Industrial|89.6
+20210274|Vargas Rodríguez, Gabriela|Arquitectura|76.2
+20210275|Castillo Gómez, Ana|Ingeniería Civil|71.1
+20210276|Ortiz Vargas, Jorge|Derecho|72.6
+20210277|Romero Sánchez, Ana|Economía|69.2
+20210278|Rivera Jiménez, Ana|Medicina|90.7
+20210279|Jiménez González, Jorge|Economía|74.6
+20210280|Morales Rodríguez, Pedro|Medicina|74.1

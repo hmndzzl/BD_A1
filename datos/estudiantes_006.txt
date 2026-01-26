@@ -1,0 +1,35 @@
+20210176|Morales Martínez, Isabella|Arquitectura|73.6
+20210177|García Pérez, Ana|Psicología|92.4
+20210178|Romero Romero, Ricardo|Ingeniería en Sistemas|87.1
+20210179|Torres Romero, Carlos|Medicina|68.0
+20210180|Pérez Pérez, José|Psicología|83.3
+20210181|Flores Ramírez, Isabella|Psicología|98.9
+20210182|Castillo Martínez, Valentina|Administración|84.9
+20210183|Díaz González, Carlos|Derecho|66.5
+20210184|Castillo González, Miguel|Comunicación|77.3
+20210185|Vargas López, Ana|Psicología|83.9
+20210186|Ortiz Castillo, Laura|Comunicación|88.5
+20210187|López Ortiz, Carlos|Arquitectura|93.9
+20210188|Castillo López, Gabriela|Psicología|80.9
+20210189|Torres Díaz, Pedro|Comunicación|82.2
+20210190|Torres Gómez, Carlos|Medicina|99.4
+20210191|López Jiménez, Andrés|Ingeniería Industrial|65.8
+20210192|Morales Ramírez, Fernando|Medicina|82.2
+20210193|Ortiz Flores, Isabella|Ingeniería Industrial|80.8
+20210194|Rivera Rodríguez, Daniela|Economía|72.0
+20210195|Vargas López, Camila|Administración|88.9
+20210196|Díaz Gómez, Andrés|Derecho|87.6
+20210197|Ramírez Gómez, Lucía|Psicología|94.2
+20210198|González Sánchez, Gabriela|Arquitectura|81.2
+20210199|Ramírez Vargas, Fernando|Economía|64.0
+20210200|Castillo Ortiz, Camila|Arquitectura|79.9
+20210201|López Gómez, Laura|Psicología|75.4
+20210202|Díaz Torres, Ana|Medicina|69.5
+20210203|González Martínez, Ana|Arquitectura|99.9
+20210204|Hernández Hernández, Carlos|Derecho|67.8
+20210205|Pérez Ortiz, Daniela|Administración|65.0
+20210206|Sánchez Jiménez, Isabella|Derecho|86.2
+20210207|Jiménez Castillo, Ana|Ingeniería en Sistemas|81.0
+20210208|González Romero, Sofía|Administración|64.1
+20210209|López Gómez, Gabriela|Arquitectura|63.9
+20210210|Jiménez Rivera, Andrés|Arquitectura|74.7

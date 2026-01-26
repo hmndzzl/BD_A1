@@ -1,15 +1,35 @@
-20210031|Castillo Vargas, Camila|Arquitectura|94.9
-20210032|López Pérez, Andrés|Derecho|72.3
-20210033|López Flores, Carlos|Ingeniería en Sistemas|74.0
-20210034|Rodríguez Romero, Jorge|Ingeniería en Sistemas|93.3
-20210035|Torres Romero, Miguel|Comunicación|80.6
-20210036|Gómez Vargas, Gabriela|Psicología|73.6
-20210037|González Sánchez, Sofía|Administración|94.4
-20210038|García Rivera, Andrés|Comunicación|80.1
-20210039|Rodríguez Díaz, María|Psicología|80.2
-20210040|García Ramírez, Fernando|Economía|62.6
-20210041|Castillo Pérez, Fernando|Arquitectura|97.9
-20210042|López Díaz, Ana|Comunicación|61.2
-20210043|Martínez Flores, Lucía|Comunicación|67.0
-20210044|González Pérez, María|Comunicación|70.3
-20210045|Vargas Flores, Ana|Ingeniería en Sistemas|77.9
+20210071|Ortiz Martínez, Sofía|Ingeniería Industrial|77.3
+20210072|Flores González, Ana|Ingeniería en Sistemas|60.5
+20210073|Flores Rodríguez, Manuel|Comunicación|66.7
+20210074|Morales García, Miguel|Arquitectura|65.8
+20210075|Rivera Castillo, José|Ingeniería en Sistemas|73.0
+20210076|Rodríguez Díaz, Sofía|Ingeniería Civil|79.1
+20210077|Flores Hernández, Sofía|Ingeniería en Sistemas|80.0
+20210078|Sánchez González, José|Medicina|71.2
+20210079|Rodríguez Ramírez, Jorge|Psicología|65.2
+20210080|Vargas Flores, Isabella|Ingeniería en Sistemas|84.4
+20210081|López Romero, Carlos|Economía|71.9
+20210082|Díaz Martínez, Diego|Comunicación|60.6
+20210083|Gómez Jiménez, Isabella|Ingeniería Civil|79.6
+20210084|Romero García, Valentina|Administración|71.2
+20210085|Pérez Flores, Miguel|Ingeniería Industrial|68.9
+20210086|Rodríguez Torres, Valentina|Comunicación|60.4
+20210087|Pérez Torres, Gabriela|Psicología|94.8
+20210088|Morales Flores, José|Ingeniería Civil|64.5
+20210089|López Torres, Diego|Comunicación|61.3
+20210090|Sánchez Morales, Diego|Administración|78.3
+20210091|Pérez Sánchez, Laura|Ingeniería Civil|60.5
+20210092|Díaz Sánchez, Fernando|Ingeniería en Sistemas|61.4
+20210093|Flores Jiménez, Fernando|Medicina|84.1
+20210094|Ortiz Rivera, Sofía|Economía|76.0
+20210095|Hernández Gómez, Daniela|Arquitectura|68.1
+20210096|Rodríguez Rivera, Daniela|Derecho|65.7
+20210097|Ortiz Ramírez, Fernando|Comunicación|93.2
+20210098|López Sánchez, Manuel|Comunicación|77.2
+20210099|Ortiz López, Camila|Comunicación|70.8
+20210100|Flores Hernández, Miguel|Psicología|84.9
+20210101|Ortiz Rivera, Gabriela|Comunicación|66.5
+20210102|Flores Torres, Ricardo|Medicina|83.0
+20210103|Flores Díaz, Andrés|Economía|60.8
+20210104|López Morales, Miguel|Ingeniería Industrial|72.1
+20210105|Romero Martínez, María|Ingeniería Industrial|89.5

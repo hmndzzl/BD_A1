@@ -1,0 +1,35 @@
+20210211|Rodríguez Martínez, María|Administración|98.8
+20210212|Castillo Rodríguez, Ana|Administración|80.8
+20210213|Pérez Díaz, Pedro|Arquitectura|81.9
+20210214|Ortiz Martínez, Sofía|Arquitectura|92.3
+20210215|Torres Hernández, Ana|Ingeniería en Sistemas|90.7
+20210216|Torres Pérez, Carlos|Economía|82.8
+20210217|Castillo Jiménez, Manuel|Economía|60.9
+20210218|Ortiz González, Valentina|Ingeniería en Sistemas|70.7
+20210219|Morales Torres, Carlos|Ingeniería Industrial|66.5
+20210220|Castillo Torres, Daniela|Ingeniería Civil|76.3
+20210221|Torres Martínez, Jorge|Ingeniería Civil|79.8
+20210222|Díaz Pérez, Diego|Psicología|67.2
+20210223|Martínez Sánchez, Carlos|Medicina|71.2
+20210224|Jiménez Pérez, Fernando|Ingeniería en Sistemas|87.8
+20210225|García Romero, María|Psicología|92.7
+20210226|López Castillo, Ana|Economía|62.7
+20210227|Díaz Vargas, Diego|Ingeniería Civil|74.7
+20210228|Flores Torres, Laura|Medicina|78.7
+20210229|Pérez Gómez, Miguel|Arquitectura|98.5
+20210230|Torres López, Diego|Ingeniería Civil|90.0
+20210231|Martínez Martínez, Gabriela|Arquitectura|78.6
+20210232|Sánchez Rodríguez, Laura|Ingeniería Civil|99.6
+20210233|Sánchez Díaz, Carlos|Administración|71.4
+20210234|Ramírez Gómez, Daniela|Ingeniería Civil|89.8
+20210235|Castillo García, Fernando|Arquitectura|81.4
+20210236|Hernández García, Fernando|Derecho|92.7
+20210237|González Hernández, Miguel|Ingeniería en Sistemas|76.5
+20210238|García Romero, Camila|Ingeniería Industrial|66.6
+20210239|Rivera Hernández, Jorge|Ingeniería Civil|90.8
+20210240|Hernández García, Pedro|Ingeniería Civil|95.7
+20210241|Hernández Morales, Valentina|Ingeniería en Sistemas|98.0
+20210242|Hernández Gómez, Ricardo|Economía|78.2
+20210243|López Castillo, Sofía|Ingeniería Civil|68.2
+20210244|Sánchez Gómez, Ricardo|Derecho|87.7
+20210245|Castillo Gómez, Ana|Psicología|80.5

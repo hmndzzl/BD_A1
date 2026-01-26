@@ -1,15 +1,35 @@
-20210046|Jiménez Díaz, Daniela|Comunicación|68.3
-20210047|Torres Morales, Sofía|Derecho|90.3
-20210048|Ortiz Ortiz, Daniela|Economía|64.3
-20210049|Rodríguez Rivera, Camila|Ingeniería Industrial|82.0
-20210050|Flores Ramírez, Manuel|Ingeniería en Sistemas|88.8
-20210051|Castillo Castillo, Andrés|Ingeniería en Sistemas|73.2
-20210052|Pérez Morales, Miguel|Comunicación|71.3
-20210053|Flores Jiménez, Pedro|Economía|85.0
-20210054|Sánchez Martínez, Laura|Medicina|88.2
-20210055|López Díaz, Ana|Psicología|63.2
-20210056|Rivera Torres, Daniela|Ingeniería Civil|63.6
-20210057|Romero Díaz, Jorge|Economía|72.4
-20210058|Jiménez Morales, Fernando|Administración|69.3
-20210059|Jiménez Jiménez, Gabriela|Derecho|89.4
-20210060|Torres González, Manuel|Economía|63.8
+20210106|Ortiz Flores, Manuel|Arquitectura|93.7
+20210107|Gómez Jiménez, Miguel|Derecho|78.7
+20210108|Rodríguez Jiménez, Sofía|Medicina|65.3
+20210109|Díaz Rivera, Valentina|Derecho|93.2
+20210110|Castillo Rivera, Manuel|Psicología|67.5
+20210111|Jiménez Hernández, Daniela|Ingeniería en Sistemas|85.5
+20210112|Pérez Hernández, Miguel|Economía|89.8
+20210113|González Castillo, Isabella|Ingeniería Civil|69.1
+20210114|Torres Torres, María|Ingeniería Industrial|80.4
+20210115|Rivera Torres, Lucía|Psicología|72.6
+20210116|Gómez Hernández, Valentina|Arquitectura|68.3
+20210117|Pérez Romero, Camila|Arquitectura|88.7
+20210118|Torres Flores, Diego|Administración|63.7
+20210119|Martínez Díaz, Andrés|Arquitectura|74.6
+20210120|Jiménez Romero, José|Economía|84.7
+20210121|Hernández Morales, Carlos|Psicología|90.3
+20210122|Rodríguez Castillo, Carlos|Derecho|86.1
+20210123|González Castillo, Manuel|Psicología|82.5
+20210124|Morales Romero, Lucía|Derecho|74.3
+20210125|Díaz Díaz, Laura|Comunicación|92.0
+20210126|Sánchez Rivera, Ricardo|Administración|86.9
+20210127|Castillo Castillo, Lucía|Medicina|91.4
+20210128|Rodríguez Gómez, Camila|Medicina|81.2
+20210129|Martínez Castillo, Jorge|Ingeniería en Sistemas|81.9
+20210130|Gómez López, Valentina|Arquitectura|73.3
+20210131|Hernández Torres, Carlos|Economía|60.5
+20210132|Pérez Rivera, Pedro|Economía|93.2
+20210133|Vargas Ramírez, Carlos|Ingeniería en Sistemas|98.6
+20210134|Vargas Hernández, Camila|Comunicación|70.0
+20210135|Rodríguez Hernández, Manuel|Ingeniería Civil|71.6
+20210136|García Ortiz, Jorge|Ingeniería Industrial|74.4
+20210137|Pérez Gómez, Daniela|Derecho|100.0
+20210138|González González, Isabella|Derecho|93.5
+20210139|Torres Rivera, Fernando|Economía|94.7
+20210140|Romero Jiménez, Daniela|Ingeniería Industrial|74.7

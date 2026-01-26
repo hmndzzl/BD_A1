@@ -1,15 +1,35 @@
-20210016|Ramírez García, Sofía|Arquitectura|73.9
-20210017|Castillo Morales, Ana|Ingeniería Industrial|95.3
-20210018|Vargas Gómez, Miguel|Ingeniería Industrial|72.3
-20210019|García Torres, Lucía|Medicina|65.9
-20210020|López Martínez, María|Arquitectura|93.3
-20210021|Flores Gómez, Gabriela|Arquitectura|97.4
-20210022|Ortiz Torres, Fernando|Comunicación|89.4
-20210023|Hernández Díaz, Lucía|Ingeniería Industrial|92.1
-20210024|Castillo Torres, Ricardo|Ingeniería Civil|98.2
-20210025|Flores Rivera, Laura|Administración|60.7
-20210026|Martínez Martínez, Ricardo|Psicología|70.3
-20210027|Ramírez Pérez, María|Economía|73.2
-20210028|García Martínez, Fernando|Ingeniería en Sistemas|98.5
-20210029|López Romero, Camila|Arquitectura|64.1
-20210030|González López, Daniela|Psicología|71.8
+20210036|Torres García, Manuel|Administración|89.7
+20210037|García Martínez, Sofía|Comunicación|80.8
+20210038|Martínez Hernández, Lucía|Derecho|84.5
+20210039|Flores Morales, Pedro|Arquitectura|64.0
+20210040|Díaz Ortiz, Valentina|Medicina|72.3
+20210041|Pérez Pérez, Miguel|Arquitectura|82.4
+20210042|Morales Pérez, Manuel|Ingeniería Industrial|88.0
+20210043|Díaz Romero, Manuel|Medicina|73.2
+20210044|Castillo Sánchez, José|Derecho|62.1
+20210045|Castillo Torres, Sofía|Medicina|93.3
+20210046|Ramírez Rivera, Miguel|Ingeniería Civil|64.3
+20210047|Vargas Ortiz, Pedro|Economía|80.3
+20210048|Vargas Jiménez, Miguel|Ingeniería en Sistemas|92.0
+20210049|Gómez Pérez, María|Medicina|80.4
+20210050|Jiménez González, Jorge|Economía|85.9
+20210051|Rivera Martínez, María|Economía|67.1
+20210052|González Romero, José|Ingeniería en Sistemas|87.1
+20210053|Rivera Gómez, Valentina|Psicología|86.0
+20210054|Flores Romero, Laura|Arquitectura|66.9
+20210055|Martínez García, Laura|Ingeniería Industrial|64.5
+20210056|Martínez Flores, Fernando|Ingeniería en Sistemas|72.1
+20210057|González Díaz, Lucía|Psicología|66.2
+20210058|Rivera Díaz, Diego|Comunicación|92.8
+20210059|López Ramírez, Isabella|Derecho|99.2
+20210060|González Castillo, Valentina|Ingeniería en Sistemas|88.1
+20210061|Gómez Díaz, Ana|Medicina|81.2
+20210062|Romero Martínez, Ricardo|Derecho|71.5
+20210063|Flores Romero, Diego|Ingeniería Civil|62.5
+20210064|Romero Gómez, Fernando|Derecho|64.3
+20210065|Morales Hernández, Sofía|Administración|69.9
+20210066|Ortiz Rodríguez, Valentina|Comunicación|70.1
+20210067|Torres Ramírez, Ricardo|Medicina|73.7
+20210068|Castillo Morales, Miguel|Ingeniería Civil|98.0
+20210069|García Ramírez, Gabriela|Administración|89.2
+20210070|Vargas Díaz, Gabriela|Comunicación|88.3

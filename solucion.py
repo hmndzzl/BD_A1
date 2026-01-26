@@ -138,7 +138,7 @@ def busqueda_indexada(carnet_estudiante, ruta_indice):
 # se especifican los archivos a revisar de forma automática y el carnet a buscar
 archivos_a_revisar = sorted(glob.glob(os.path.join(ruta, "datos", "estudiantes_*.txt")))
 
-carnet_buscado = "20210042"
+carnet_buscado = "20210280"
 ruta_indice = os.path.join(ruta, "datos", "indice.txt")
 
 # ejecucion de la busqueda secuencial

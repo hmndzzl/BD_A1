@@ -147,7 +147,7 @@ def generar_indice(carpeta, archivo_indice):
 # ============================================
 # MODIFICA ESTOS VALORES PARA TUS PRUEBAS
 # ============================================
-generar_archivos(num_archivos=4, registros_por_archivo=15)
+generar_archivos(num_archivos=8, registros_por_archivo=35)
 
 #Si generamos más archivos y luego queremos generar menos (ej. generamos 10 y ahora queremos probar con 4)
 # debemos eliminar los archivos que sobran manualmente

@@ -1,15 +1,35 @@
-20210001|López Castillo, Lucía|Derecho|79.2
-20210002|Ramírez Pérez, Daniela|Economía|64.8
-20210003|Sánchez Castillo, Miguel|Ingeniería Industrial|66.3
-20210004|Morales Gómez, María|Ingeniería en Sistemas|63.1
-20210005|Pérez González, Carlos|Ingeniería en Sistemas|79.2
-20210006|Torres Flores, Carlos|Comunicación|66.0
-20210007|Torres Vargas, María|Ingeniería en Sistemas|68.0
-20210008|Sánchez Hernández, Carlos|Comunicación|66.4
-20210009|Romero Rodríguez, Valentina|Economía|62.9
-20210010|Sánchez Sánchez, Pedro|Comunicación|66.8
-20210011|López Sánchez, Camila|Comunicación|68.6
-20210012|Hernández Sánchez, María|Arquitectura|66.8
-20210013|Torres Gómez, Sofía|Ingeniería en Sistemas|68.1
-20210014|García García, Gabriela|Ingeniería Civil|74.3
-20210015|Pérez Jiménez, Sofía|Ingeniería Industrial|88.1
+20210001|Rodríguez Gómez, Lucía|Ingeniería Civil|70.9
+20210002|Morales Ramírez, Daniela|Derecho|100.0
+20210003|Ortiz Flores, Gabriela|Ingeniería Civil|93.0
+20210004|López Martínez, José|Economía|80.3
+20210005|Ortiz Díaz, Pedro|Medicina|73.6
+20210006|Díaz Rivera, Valentina|Ingeniería Industrial|78.9
+20210007|García Rivera, Valentina|Ingeniería Industrial|97.2
+20210008|Ortiz Romero, Laura|Arquitectura|74.2
+20210009|Rivera Pérez, Ana|Comunicación|86.4
+20210010|Sánchez Flores, José|Arquitectura|70.4
+20210011|Rivera Jiménez, Lucía|Medicina|73.7
+20210012|Torres Ortiz, José|Economía|97.0
+20210013|Romero Martínez, Fernando|Derecho|95.8
+20210014|Castillo Morales, Gabriela|Economía|98.2
+20210015|Morales Pérez, Ricardo|Administración|91.0
+20210016|Hernández Gómez, Miguel|Arquitectura|70.9
+20210017|Jiménez Vargas, Miguel|Comunicación|76.3
+20210018|Flores Hernández, Jorge|Arquitectura|90.3
+20210019|Flores Gómez, Daniela|Ingeniería en Sistemas|95.4
+20210020|Rodríguez Flores, José|Medicina|65.8
+20210021|Romero Díaz, Sofía|Arquitectura|96.4
+20210022|Rodríguez Jiménez, Camila|Psicología|65.7
+20210023|Hernández Díaz, Miguel|Psicología|84.0
+20210024|Romero López, María|Ingeniería en Sistemas|93.1
+20210025|Vargas Vargas, Lucía|Psicología|72.3
+20210026|González Vargas, Sofía|Ingeniería Civil|92.6
+20210027|Rodríguez Ortiz, Ricardo|Ingeniería Industrial|86.2
+20210028|García Ortiz, Valentina|Ingeniería Industrial|85.8
+20210029|Ramírez Rivera, María|Comunicación|89.4
+20210030|Flores Gómez, Andrés|Ingeniería Industrial|84.5
+20210031|Ramírez Torres, Camila|Derecho|100.0
+20210032|Flores Díaz, Diego|Medicina|77.3
+20210033|Jiménez Torres, José|Ingeniería en Sistemas|81.8
+20210034|Flores Rodríguez, Diego|Psicología|69.3
+20210035|Ortiz Rodríguez, Miguel|Psicología|60.1

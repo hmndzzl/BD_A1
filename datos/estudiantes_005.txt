@@ -1,0 +1,35 @@
+20210141|García Rivera, Gabriela|Psicología|92.7
+20210142|Ramírez Jiménez, Ricardo|Ingeniería Industrial|90.1
+20210143|Torres García, Manuel|Comunicación|74.2
+20210144|Rodríguez López, Gabriela|Administración|96.8
+20210145|Pérez Torres, Camila|Ingeniería Civil|99.9
+20210146|Martínez Hernández, Jorge|Ingeniería en Sistemas|80.2
+20210147|González Ortiz, Manuel|Ingeniería Civil|84.6
+20210148|García Morales, Carlos|Economía|76.4
+20210149|Díaz Castillo, Fernando|Psicología|83.5
+20210150|Rodríguez Hernández, Valentina|Administración|72.6
+20210151|Ortiz Díaz, Andrés|Ingeniería Industrial|97.1
+20210152|Pérez González, Daniela|Administración|92.4
+20210153|López Castillo, Andrés|Psicología|78.7
+20210154|Ramírez Rivera, Fernando|Comunicación|94.2
+20210155|Jiménez Romero, Sofía|Psicología|84.6
+20210156|Vargas Ortiz, Camila|Comunicación|99.8
+20210157|Ramírez López, Andrés|Comunicación|62.5
+20210158|Ramírez Flores, Daniela|Arquitectura|67.2
+20210159|Martínez Martínez, Carlos|Comunicación|64.1
+20210160|Ortiz Morales, Pedro|Derecho|72.7
+20210161|Sánchez Morales, Pedro|Derecho|91.7
+20210162|Díaz Rivera, José|Comunicación|66.2
+20210163|Castillo Castillo, Isabella|Comunicación|68.0
+20210164|Díaz Rivera, Carlos|Ingeniería Industrial|86.0
+20210165|González Gómez, Laura|Economía|83.6
+20210166|Ramírez Romero, Diego|Economía|71.6
+20210167|Vargas Morales, Andrés|Comunicación|65.9
+20210168|Pérez Gómez, Lucía|Ingeniería Civil|67.9
+20210169|Castillo Jiménez, Lucía|Economía|94.9
+20210170|Hernández Díaz, Daniela|Medicina|86.4
+20210171|Romero Gómez, Pedro|Comunicación|86.7
+20210172|López Jiménez, Diego|Administración|99.4
+20210173|López Flores, Isabella|Ingeniería Civil|89.9
+20210174|Hernández Pérez, Lucía|Ingeniería Industrial|95.6
+20210175|Ramírez García, María|Medicina|84.6
